@@ -1,4 +1,8 @@
-﻿{
+{
+  "title": "Suucha WeChat Token Local",
+  "copyright": "Copyright 2017 Suucha",
+  "description": "Suucha WeChat Token Local",
+  "language": "zh-Hans",
   "version": "1.0.0-*",
 
   "dependencies": {

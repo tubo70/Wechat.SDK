@@ -1,4 +1,8 @@
-﻿{
+{
+  "title": "Suucha WeChat Token Central",
+  "copyright": "Copyright 2017 Suucha",
+  "description": "Suucha WeChat Token Central",
+  "language": "zh-Hans",
   "dependencies": {
     "Microsoft.NETCore.App": {
       "version": "1.0.1",
