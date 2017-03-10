@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Suucha WeChat MessagePlatform Token</Description>
+    <Copyright>Copyright 2017 Suucha</Copyright>
+    <AssemblyTitle>Suucha WeChat MessagePlatform Token</AssemblyTitle>
+    <NeutralLanguage>zh-Hans</NeutralLanguage>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <AssemblyName>MessagePlatform.Token</AssemblyName>
+    <PackageId>MessagePlatform.Token</PackageId>
+    <NetStandardImplicitPackageVersion>1.6.0</NetStandardImplicitPackageVersion>
+    <PackageTargetFallback>$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj" />
+  </ItemGroup>
+
+</Project>

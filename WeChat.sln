@@ -1,19 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Core", "Core\Core.xproj", "{BA9EEC1A-6441-4FE7-9F09-0BE0CC4DD13E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{BA9EEC1A-6441-4FE7-9F09-0BE0CC4DD13E}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Token", "Token\Token.xproj", "{3D2CA034-1C44-4A67-B0B7-CC5F92655540}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Token", "Token\Token.csproj", "{3D2CA034-1C44-4A67-B0B7-CC5F92655540}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Token.Local", "Token.Local\Token.Local.xproj", "{93100085-5CC0-40C2-A17E-2F2DDB2FAD9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Token.Local", "Token.Local\Token.Local.csproj", "{93100085-5CC0-40C2-A17E-2F2DDB2FAD9B}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Token.Remote", "Token.Remote\Token.Remote.xproj", "{04702DC9-8491-47F0-9290-687B39727434}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Token.Remote", "Token.Remote\Token.Remote.csproj", "{04702DC9-8491-47F0-9290-687B39727434}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Token.Central", "Token.Central\Token.Central.xproj", "{A5BE9A89-3370-47D1-967F-628F834B262D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Token.Central", "Token.Central\Token.Central.csproj", "{A5BE9A89-3370-47D1-967F-628F834B262D}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MessagePlatform.Token", "MessagePlatform.Token\MessagePlatform.Token.xproj", "{43ED4737-389C-46FF-A310-94CC1C9B6AFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessagePlatform.Token", "MessagePlatform.Token\MessagePlatform.Token.csproj", "{43ED4737-389C-46FF-A310-94CC1C9B6AFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
