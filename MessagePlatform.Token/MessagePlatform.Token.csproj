@@ -6,14 +6,19 @@
     <AssemblyTitle>Suucha WeChat MessagePlatform Token</AssemblyTitle>
     <NeutralLanguage>zh-Hans</NeutralLanguage>
     <TargetFramework>netstandard1.6</TargetFramework>
-    <AssemblyName>MessagePlatform.Token</AssemblyName>
+    <AssemblyName>Suucha.WeChat.MessagePlatform.Token</AssemblyName>
     <PackageId>MessagePlatform.Token</PackageId>
     <NetStandardImplicitPackageVersion>1.6.0</NetStandardImplicitPackageVersion>
     <PackageTargetFallback>$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <RootNamespace>Suucha.WeChat.MessagePlatform.Token</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SQLite" Version="1.1.0" />
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Core\Core.csproj" />

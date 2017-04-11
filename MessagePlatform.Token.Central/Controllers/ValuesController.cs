@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Token.Central.Controllers
+namespace MessagePlatform.Token.Central.Controllers
 {
     [Route("api/[controller]")]
     public class ValuesController : Controller

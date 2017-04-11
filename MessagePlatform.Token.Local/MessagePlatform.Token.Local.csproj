@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <AssemblyName>Suucha.WeChat.MessagePlatform.Token.Local</AssemblyName>
+    <RootNamespace>Suucha.WeChat.MessagePlatform.Token.Local</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MessagePlatform.Token\MessagePlatform.Token.csproj" />
+  </ItemGroup>
+
+</Project>

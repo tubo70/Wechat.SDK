@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace Suucha.WeChat.Core.Configurations
+﻿namespace Suucha.WeChat.Core.Configurations
 {
     public class WeChatConfiguration
     {
