@@ -5,21 +5,30 @@
     <Copyright>Copyright 2017 Suucha</Copyright>
     <AssemblyTitle>Suucha WeChat Core</AssemblyTitle>
     <NeutralLanguage>zh-Hans</NeutralLanguage>
-    <TargetFramework>netstandard1.6</TargetFramework>
-    <AssemblyName>Core</AssemblyName>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Suucha.WeChat.Core</AssemblyName>
     <PackageId>Core</PackageId>
-    <NetStandardImplicitPackageVersion>1.6.0</NetStandardImplicitPackageVersion>
+    <NetStandardImplicitPackageVersion>2.0.0</NetStandardImplicitPackageVersion>
     <PackageTargetFallback>$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <RootNamespace>Suucha.WeChat.Core</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
-    <PackageReference Include="System.Collections.NonGeneric" Version="4.0.1" />
-    <PackageReference Include="System.Xml.XmlDocument" Version="4.0.1" />
-    <PackageReference Include="System.Xml.XmlSerializer" Version="4.0.11" />
+    <Compile Remove="Utilities\HttpUtility.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Utilities\HttpUtility.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="2.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.1-beta1" />
+    <PackageReference Include="refit" Version="4.0.1" />
   </ItemGroup>
 
 </Project>

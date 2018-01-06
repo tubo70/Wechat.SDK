@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Suucha.WeChat.Core;
 
-namespace Suucha.WeChat.MessagePlatform.Token.Sqlite
+namespace Suucha.WeChat.MessagePlatform.Token.Local
 {
     public class MessagePlatformTokenRepository : IMessagePlatformTokenRepository
     {

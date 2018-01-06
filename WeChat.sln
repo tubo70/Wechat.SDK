@@ -1,27 +1,27 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{BA9EEC1A-6441-4FE7-9F09-0BE0CC4DD13E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessagePlatform.Token", "MessagePlatform.Token\MessagePlatform.Token.csproj", "{43ED4737-389C-46FF-A310-94CC1C9B6AFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagePlatform.Token.Local", "MessagePlatform.Token.Local\MessagePlatform.Token.Local.csproj", "{4821B739-1DE3-406C-A08B-5AD4E9CB6D01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessagePlatform.Token.Local", "MessagePlatform.Token.Local\MessagePlatform.Token.Local.csproj", "{4821B739-1DE3-406C-A08B-5AD4E9CB6D01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagePlatform.Token.Remote", "MessagePlatform.Token.Remote\MessagePlatform.Token.Remote.csproj", "{03CDB803-2857-4F9B-AFF3-E06C7019AEC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessagePlatform.Token.Remote", "MessagePlatform.Token.Remote\MessagePlatform.Token.Remote.csproj", "{03CDB803-2857-4F9B-AFF3-E06C7019AEC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagePlatform.Message", "MessagePlatform.Message\MessagePlatform.Message.csproj", "{E56B8FDB-220F-492C-8E11-D22F95DD5D03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessagePlatform.Message", "MessagePlatform.Message\MessagePlatform.Message.csproj", "{E56B8FDB-220F-492C-8E11-D22F95DD5D03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThirdPartyPlatform.Token", "ThirdPartyPlatform.Token\ThirdPartyPlatform.Token.csproj", "{C2F03DC1-68C1-4747-B2AC-C012D8C6831F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThirdPartyPlatform.Token", "ThirdPartyPlatform.Token\ThirdPartyPlatform.Token.csproj", "{C2F03DC1-68C1-4747-B2AC-C012D8C6831F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThirdPartyPlatform.Token.Local", "ThirdPartyPlatform.Token.Local\ThirdPartyPlatform.Token.Local.csproj", "{0C153155-383B-4C3C-AAA6-5A927369E5C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThirdPartyPlatform.Token.Local", "ThirdPartyPlatform.Token.Local\ThirdPartyPlatform.Token.Local.csproj", "{0C153155-383B-4C3C-AAA6-5A927369E5C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThirdPartyPlatform.Token.Remote", "ThirdPartyPlatform.Token.Remote\ThirdPartyPlatform.Token.Remote.csproj", "{B40E51A6-BFCE-48E5-A74E-805B9FA68F5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThirdPartyPlatform.Token.Remote", "ThirdPartyPlatform.Token.Remote\ThirdPartyPlatform.Token.Remote.csproj", "{B40E51A6-BFCE-48E5-A74E-805B9FA68F5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagePlatform.Token.Central", "MessagePlatform.Token.Central\MessagePlatform.Token.Central.csproj", "{E87C9D30-91E8-4DFC-BF11-FC4F777B2902}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessagePlatform.Token.Central", "MessagePlatform.Token.Central\MessagePlatform.Token.Central.csproj", "{E87C9D30-91E8-4DFC-BF11-FC4F777B2902}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThirdPartyPlatform.Token.Central", "ThirdPartyPlatform.Token.Central\ThirdPartyPlatform.Token.Central.csproj", "{6EE2FCFA-AE79-467C-B9DF-E823DCFDE976}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThirdPartyPlatform.Token.Central", "ThirdPartyPlatform.Token.Central\ThirdPartyPlatform.Token.Central.csproj", "{6EE2FCFA-AE79-467C-B9DF-E823DCFDE976}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -72,5 +72,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F11976B0-A153-43DA-B8AF-208FAD40F12C}
 	EndGlobalSection
 EndGlobal
