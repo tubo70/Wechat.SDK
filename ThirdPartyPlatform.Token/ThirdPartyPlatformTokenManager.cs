@@ -11,27 +11,8 @@ namespace Suucha.WeChat.ThirdPartyPlatform.Tokens
         private static Dictionary<string, ThirdPartyPlatformSetting> settings = new Dictionary<string, ThirdPartyPlatformSetting>();
         private string RefreshAccessToken(string componentAppId)
         {
-            if (!settings.ContainsKey(componentAppId))
-            {
-                throw new InvalidOperationException("请先注册app");
-            }
+            throw new NotImplementedException();
 
-        }
-        private async ComponentAccessTokenResult GetToken(string componentAppId, string secret, string ticket)
-        {
-            string url = "https://api.weixin.qq.com/cgi-bin/component/api_component_token";
-            Dictionary<String, Object> data = new Dictionary<string, object>
-            {
-                { "component_appid", componentAppId },
-                { "component_appsecret", secret },
-                { "component_verify_ticket", ticket }
-            };
-            ComponentAccessTokenResult result = null;
-            HttpContent content = new HttpContent();
-            result = await client.PostAsync(url, content);//.postWithBodyResultByJson(ComponentAccessTokenResult.class, url, JSON.toJSONString(data));
-
-            checkResult(result);
-            return result;
         }
         public string CreatePreAuthCode(string componentAppId)
         {

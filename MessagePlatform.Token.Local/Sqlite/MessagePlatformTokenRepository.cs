@@ -22,14 +22,14 @@ namespace Suucha.WeChat.MessagePlatform.Token.Local.Sqlite
         }
         public void SaveSetting(MessagePlatformSetting setting)
         {
-            AddSettingAsyncInternal(setting).Wait();
+            SaveSettingAsyncInternal(setting).Wait();
         }
 
         public Task SaveSettingAsync(MessagePlatformSetting setting)
         {
-            return AddSettingAsyncInternal(setting);
+            return SaveSettingAsyncInternal(setting);
         }
-        private async Task AddSettingAsyncInternal(MessagePlatformSetting setting)
+        private async Task SaveSettingAsyncInternal(MessagePlatformSetting setting)
         {
             using (var connection = database.GetConnection())
             {

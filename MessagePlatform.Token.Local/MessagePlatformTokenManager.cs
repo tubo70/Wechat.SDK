@@ -104,7 +104,7 @@ namespace Suucha.WeChat.MessagePlatform.Token.Local
                 setting.AppSecret = appSecret;
                 setting.AppToken = appToken;
                 setting.EncodingAesKey = encodingAesKey;
-                await tokenRepository.UpdateSettingAsync(setting);
+                await tokenRepository.SaveSettingAsync(setting);
             }
         }
         private async Task<WillExpireData> GetAndUpdateTokenAsync(string appId, string secret, string grantType)
